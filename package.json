@@ -1,0 +1,25 @@
+{
+  "name": "webpack-dll-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vendor:dev": "webpack --config webpack.vendor.dev.config.js --progress --colors",
+    "vendor:build": "webpack --config webpack.vendor.build.config.js --progress --colors",
+    "dev": "npm run vendor:dev && webpack --config webpack.dev.config.js --watch --progress --colors",
+    "build": "npm run vendor:build && webpack --config webpack.build.config.js --watch --progress --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.6.1"
+  }
+}

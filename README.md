@@ -7,4 +7,4 @@
 
 ## Guides 
 
-https://www.w3cmm.com/notepad/webpack-time-performance.html
+https://w3cmm.com/memo/webpack-time-performance.html
